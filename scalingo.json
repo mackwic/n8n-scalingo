@@ -1,0 +1,36 @@
+{
+  "name": "n8n",
+  "description": "Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services.",
+  "website": "https://www.n8n.io/",
+  "repository": "https://github.com/johnsudaar/n8n-scalingo",
+  "logo": "https://docs.n8n.io/assets/img/n8n-logo.png",
+  "env": {
+    "N8N_PORT": {
+      "description": "Port on which N8N should listen to. This should be an alias of the platform generated PORT environment variable",
+      "value": "$PORT"
+    },
+    "N8N_PROTOCOL": {
+      "description": "Protocol used to reach N8N",
+      "value": "https"
+    },
+    "N8N_ENCRYPTION_KEY": {
+      "description": "Random encryption key used to encrypt the credentials.",
+      "generator": "secret"
+    },
+    "DB_TYPE": {
+      "description": "Type of database to use to store N8N configuration",
+      "value": "postgresdb"
+    },
+    "N8N_BASIC_AUTH_ACTIVE": {
+      "description": "Should basic auth be activated for editor and Rest API access",
+      "value": "true"
+    },
+    "N8N_BASIC_AUTH_USER": {
+      "description": "The name of the n8n user for basic authentication"
+    },
+    "N8N_BASIC_AUTH_PASSWORD": {
+      "description": "The password of the n8n user for basic authentication"
+    }
+  },
+  "addons": ["postgresql:postgresql-starter-512"]
+}
