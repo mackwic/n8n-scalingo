@@ -2,7 +2,7 @@
   "name": "n8n",
   "description": "Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services.",
   "website": "https://www.n8n.io/",
-  "repository": "https://github.com/johnsudaar/n8n-scalingo",
+  "repository": "https://github.com/Scalingo/n8n-scalingo",
   "logo": "https://docs.n8n.io/assets/img/n8n-logo.png",
   "env": {
     "N8N_PORT": {

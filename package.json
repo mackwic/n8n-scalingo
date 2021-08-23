@@ -3,7 +3,7 @@
   "version": "0.135.1",
   "description": "Deploy N8N on scalingo",
   "main": "index.js",
-  "repository": "git@github.com:johnsudaar/n8n-scalingo.git",
+  "repository": "git@github.com:Scalingo/n8n-scalingo.git",
   "author": "Jonathan Hurter <john@scalingo.com>",
   "scripts": {
     "start": "./scripts/start.sh"
