@@ -7,7 +7,8 @@
   "env": {
     "N8N_PORT": {
       "description": "Port on which N8N should listen to. This should be an alias of the platform generated PORT environment variable",
-      "value": "$PORT"
+      "value": "$PORT",
+      "required": true
     },
     "N8N_PROTOCOL": {
       "description": "Protocol used to reach N8N",
@@ -15,11 +16,13 @@
     },
     "N8N_ENCRYPTION_KEY": {
       "description": "Random encryption key used to encrypt the credentials.",
-      "generator": "secret"
+      "generator": "secret",
+      "required": true
     },
     "DB_TYPE": {
       "description": "Type of database to use to store N8N configuration",
-      "value": "postgresdb"
+      "value": "postgresdb",
+      "required": true
     },
     "N8N_BASIC_AUTH_ACTIVE": {
       "description": "Should basic auth be activated for editor and Rest API access",
