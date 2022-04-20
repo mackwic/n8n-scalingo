@@ -1356,9 +1356,9 @@ content-type@~1.0.4:
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
 convict@^6.0.1:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/convict/-/convict-6.2.0.tgz#d227aef6d77a4d518ca6a6a3b863bdfdb6dc5665"
-  integrity sha512-aCk1+VWt3TG6SJV59u+wwuza7lvtlJfj6zH/fmE1xzx5yZnNby1lPYkccq1mKaJJXHjk9cuVCFWVVIhbkpmwRw==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/convict/-/convict-6.2.2.tgz#8168abe41d45b4f5ecd6e249c02553c0612a31af"
+  integrity sha512-3MsROJiEFN3BAzeFit1t87t7EUFzd44MNd13MLSikV2dsnDl7znwKgtYPPONtnDzxiDW0nBAsxVhSRNrjUrTTg==
   dependencies:
     lodash.clonedeep "^4.5.0"
     yargs-parser "^20.2.7"
